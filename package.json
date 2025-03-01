@@ -1,0 +1,27 @@
+{
+  "name": "github-action-require-linear-ticket",
+  "version": "0.1.0",
+  "description": "Check to require a Linear ticket to be linked on Pull Requests. Compatible with the Merge Queue for Enterprise users.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lararosekelley/github-action-require-linear-ticket.git"
+  },
+  "keywords": [
+    "github",
+    "actions"
+  ],
+  "author": "Lara Kelley <lararosekelley@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/lararosekelley/github-action-require-linear-ticket/issues"
+  },
+  "homepage": "https://github.com/lararosekelley/github-action-require-linear-ticket#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0"
+  }
+}

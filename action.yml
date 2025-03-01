@@ -1,0 +1,6 @@
+name: Verify Linear Issue
+description: Verify the presence of a Linear Issue on a Pull Request. Compatible with Merge Queues.
+author: lararosekelley
+runs:
+  using: node20
+  main: dist/index.js
